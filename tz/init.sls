@@ -8,7 +8,7 @@
 timezone_setting:
   timezone.system:
     - name: {{ tz.timezone }}
-    - utc: {{ utc }}
+    - utc: {{ tz.utc }}
 
 timezone_packages:
   pkg.installed:
