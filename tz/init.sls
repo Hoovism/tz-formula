@@ -17,7 +17,7 @@ timezone_packages:
 timezone_symlink:
   file.symlink:
     - name: {{ tz.path_localtime }}
-    - target:  {{ tz.path_zoneinfo }}{{ tz.timezone }}
+    - target:  {{ tz.path_tzdata }}{{ tz.timezone }}
     - force: True
     - require:
       - pkg: {{ tz.package }}
