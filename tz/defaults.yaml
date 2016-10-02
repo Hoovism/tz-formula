@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+tz:
+  timezone: 'America/New_York'
+  utc: True
+  path_tzdata: '/usr/share/zoneinfo/'
+  path_localtime: '/etc/localtime'
+  package: tzdata
