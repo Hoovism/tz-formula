@@ -15,8 +15,8 @@ that differ from whats in defaults.yaml
   }, grain='os_family', merge=salt['pillar.get']('tz:lookup')) 
 %}
 
-{## Merge the flavor_map to the default settings ##}
-{% do default_settings.firewalld.update(os_family_map) %}
+{## Merge the flavor_map to the defaults ##}
+{% do defaults.firewalld.update(os_family_map) %}
 
 {## Merge in salt:lookup pillar ##}
 {% set tz = salt['pillar.get'](
