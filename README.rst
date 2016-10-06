@@ -1,4 +1,5 @@
-# tz-formula
+tz-formula
+==========
 Salt Stack formula for managing timzone configuration.  Please find the official timezone-formula at the following URL.
 
 https://github.com/saltstack-formulas/timezone-formula
